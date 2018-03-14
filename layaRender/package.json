@@ -1,0 +1,24 @@
+{
+  "name": "layarender",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-tslint": "^8.1.1",
+    "gulp-typedoc": "^2.0.2",
+    "gulp-typescript": "^3.1.7",
+    "merge2": "^1.0.3",
+    "strip-json-comments": "^2.0.1",
+    "tslint": "^5.4.3",
+    "typedoc": "^0.7.1",
+    "typescript": "^2.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wcy",
+  "license": "ISC"
+}

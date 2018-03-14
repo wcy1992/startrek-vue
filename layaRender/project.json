@@ -1,0 +1,45 @@
+{
+    "version": "0.0.2",
+    "apps": {
+        "names": [
+            "start",
+            "battle"
+        ],
+        "dependencies": [
+            "framework"
+        ],
+        "path": "./src/apps/{{name}}/**/*.ts"
+    },
+    "modules": [
+        {
+            "name": "core",
+            "path": "./src/core/**/*.ts",
+            "dependencies": [
+                "framework"
+            ],
+            "declaration": true,
+            "docs": true,
+            "disabled": false
+        },
+        {
+            "name": "framework",
+            "path": "./src/framework/**/*.ts",
+            "declaration": true,
+            "docs": true,
+            "disabled": false
+        }
+    ],
+    "libs": [ 
+        "./libs/LayaAir.d.ts", 
+        "./libs/fairygui.d.ts"
+    ],
+    "stlibs": {
+        "core": "./libs/core.d.ts",
+        "framework": "./libs/framework.d.ts",
+        "fairygui": "./libs/fairygui.d.ts"
+    },
+    "outDir": "h5/js/",
+    "publishDir": "../dev/",
+    "declarationDir": "./stlibs",
+    "sourceMap": true
+}

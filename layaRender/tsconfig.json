@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "sourceMap": true,
+        "module": "none",
+        "skipLibCheck": false,
+        "removeComments": true
+    },
+    "experimentalDecorators": true,
+    "exclude": [
+        "node_modules",
+        "stlib/**/*.d.ts",
+        "./h5/js"
+    ]
+}
