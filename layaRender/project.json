@@ -40,6 +40,6 @@
     },
     "outDir": "h5/js/",
     "publishDir": "../dev/",
-    "declarationDir": "./stlibs",
+    "declarationDir": "./libs",
     "sourceMap": true
 }
